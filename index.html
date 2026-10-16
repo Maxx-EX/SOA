@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOA · 性取向光谱分析</title>
+<meta name="description" content="SOA（Sexual Orientation Spectrum）——完全原创的性取向自我分析：60 道题、6 大维度、多元取向光谱，开源免费，非诊断工具。">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ 开始屏 ============ -->
+  <section id="startScreen">
+    <div class="hero">
+      <div class="badge">完全原创 · 开源免费 · Apache 2.0</div>
+      <h1>SOA · <span>性取向</span>光谱分析</h1>
+      <p>Sexual Orientation Spectrum · 多元而不定义</p>
+    </div>
+
+    <div class="card">
+      <h2>开始作答</h2>
+      <p class="sub">60 道原创题，6 大维度，从吸引、认同到自我接纳，画出你此刻的内在光谱。</p>
+      <div class="start-meta">
+        <div class="cell"><div class="num">60</div><div class="lab">道原创题目</div></div>
+        <div class="cell"><div class="num">6</div><div class="lab">个分析维度</div></div>
+        <div class="cell"><div class="num">1</div><div class="lab">份自我探索报告</div></div>
+      </div>
+      <p class="notice" id="soaNotice"></p>
+      <div style="text-align:center;margin-top:24px">
+        <button id="startBtn" class="btn">开始测试（约 4 分钟）</button>
+      </div>
+      <p style="text-align:center;color:var(--muted);font-size:12px;margin-top:12px">全程本地运行，不收集、不上传任何数据。</p>
+    </div>
+
+    <div class="disclaimer" id="soaDisclaimer"></div>
+  </section>
+
+  <!-- ============ 答题屏 ============ -->
+  <section id="quizScreen" style="display:none">
+    <div class="hero" style="padding:10px 0">
+      <div class="badge">SOA · 性取向光谱分析</div>
+    </div>
+    <div class="card">
+      <div class="progress"><i id="progressFill"></i></div>
+      <div class="qmeta"><span id="qCount">1 / 60</span> · <span id="qDim"></span></div>
+      <div id="qCard">
+        <div class="qtext" id="qText"></div>
+        <div class="options" id="qOpts"></div>
+        <div class="nav">
+          <button id="prevBtn" class="ghost" disabled>上一题</button>
+          <button id="nextBtn" class="btn" disabled>下一题</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 结果屏 ============ -->
+  <section id="resultScreen" style="display:none">
+    <div class="hero" style="padding:10px 0">
+      <div class="badge">你的取向光谱</div>
+      <h1 style="font-size:24px">自我探索报告</h1>
+    </div>
+
+    <div class="card">
+      <div class="tendency-box">
+        <h3>当下倾向</h3>
+        <p id="tendLabel" style="font-size:18px;font-weight:800;color:var(--accent2)"></p>
+        <p id="tendText" style="font-size:14px;margin-top:6px"></p>
+      </div>
+      <div class="kpis" style="margin-top:14px">
+        <div class="kpi"><div class="lab">心理平衡指数 PBI</div><div class="val" id="kpiPbi"></div></div>
+        <div class="kpi"><div class="lab">光谱一致性 SC（越小越均衡）</div><div class="val" id="kpiSc"></div></div>
+      </div>
+      <p id="pbiText" style="font-size:13px;color:var(--muted)"></p>
+      <p id="scText" style="font-size:13px;color:var(--muted);margin-top:6px"></p>
+    </div>
+
+    <div class="card">
+      <h2>维度分析</h2>
+      <p class="sub">六条光谱，分别照见你取向的六个切面。</p>
+      <div class="dim-grid" id="dimGrid"></div>
+    </div>
+
+    <div class="card">
+      <h2>综合画像</h2>
+      <p class="portrait" id="portrait"></p>
+    </div>
+
+    <div class="card" style="text-align:center">
+      <button id="restartBtn" class="btn" style="padding:13px 34px">重新测试</button>
+    </div>
+
+    <div class="disclaimer" id="resultDisclaimer"></div>
+  </section>
+
+  <!-- ============ 页脚 ============ -->
+  <div class="foot">
+    <p>SOA · 性取向光谱分析 · 版权归作者所有 · 开源免费（Apache 2.0）· 授权使用不转移版权</p>
+    <p>纸质 / 电子授权书由作者亲笔签署 · 联系作者：<a href="mailto:programmingscience@foxmail.com">programmingscience@foxmail.com</a></p>
+  </div>
+</div>
+
+<script src="src/items.js"></script>
+<script src="src/framework.js"></script>
+<script src="src/analysis.js"></script>
+<script src="src/ui.js"></script>
+</body>
+</html>

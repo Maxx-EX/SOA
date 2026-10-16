@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "version": "SOA 1.0",
+    "title": "SOA · 性取向光谱分析",
+    "total": 60,
+    "dims": 6
+  },
+  "items": [
+    {
+      "id": "a1",
+      "dim": "atr",
+      "text": "我常常对与我相同性别的人产生好感。",
+      "reverse": false
+    },
+    {
+      "id": "a2",
+      "dim": "atr",
+      "text": "我常常对与我不同性别的人产生好感。",
+      "reverse": false
+    },
+    {
+      "id": "a3",
+      "dim": "atr",
+      "text": "我会设想与一位相同性别的伴侣共度余生。",
+      "reverse": false
+    },
+    {
+      "id": "a4",
+      "dim": "atr",
+      "text": "我会设想与一位不同性别的伴侣共度余生。",
+      "reverse": false
+    },
+    {
+      "id": "a5",
+      "dim": "atr",
+      "text": "无论对方是什么性别，只要彼此合拍，我都能感受到吸引。",
+      "reverse": false
+    },
+    {
+      "id": "a6",
+      "dim": "atr",
+      "text": "我觉得自己的吸引方向是流动的，会随感受而变化。",
+      "reverse": false
+    },
+    {
+      "id": "a7",
+      "dim": "atr",
+      "text": "目前我几乎感受不到对任何人的浪漫或性吸引。",
+      "reverse": false
+    },
+    {
+      "id": "a8",
+      "dim": "atr",
+      "text": "我清楚自己被怎样的人吸引，并愿意接受这一点。",
+      "reverse": false
+    },
+    {
+      "id": "a9",
+      "dim": "atr",
+      "text": "比起生理性别，我更被对方的内在特质吸引。",
+      "reverse": false
+    },
+    {
+      "id": "a10",
+      "dim": "atr",
+      "text": "我不会用单一标签去框定自己的吸引方向。",
+      "reverse": false
+    },
+    {
+      "id": "i1",
+      "dim": "ide",
+      "text": "我对自己目前的性取向有比较清晰的认知。",
+      "reverse": false
+    },
+    {
+      "id": "i2",
+      "dim": "ide",
+      "text": "我目前很难用某个词来描述自己的性取向。",
+      "reverse": true
+    },
+    {
+      "id": "i3",
+      "dim": "ide",
+      "text": "我认同自己的取向，并为此感到自在。",
+      "reverse": false
+    },
+    {
+      "id": "i4",
+      "dim": "ide",
+      "text": "即使不告诉任何人，我也能平静地接受真实的自己。",
+      "reverse": false
+    },
+    {
+      "id": "i5",
+      "dim": "ide",
+      "text": "性取向是我的一部分，但我不会用它定义全部的我。",
+      "reverse": false
+    },
+    {
+      "id": "i6",
+      "dim": "ide",
+      "text": "我有时会反复怀疑自己到底算哪一种。",
+      "reverse": true
+    },
+    {
+      "id": "i7",
+      "dim": "ide",
+      "text": "我更愿意跟随真实感受，而不是套用现成的标签。",
+      "reverse": false
+    },
+    {
+      "id": "i8",
+      "dim": "ide",
+      "text": "我了解性取向是一个多元的光谱，不必非此即彼。",
+      "reverse": false
+    },
+    {
+      "id": "i9",
+      "dim": "ide",
+      "text": "我对探索自己的取向保持耐心，不急于下结论。",
+      "reverse": false
+    },
+    {
+      "id": "i10",
+      "dim": "ide",
+      "text": "他人的标签，无论肯定与否，都不会轻易动摇我。",
+      "reverse": false
+    },
+    {
+      "id": "f1",
+      "dim": "aff",
+      "text": "对我而言，情感上的亲近比身体上的吸引更重要。",
+      "reverse": false
+    },
+    {
+      "id": "f2",
+      "dim": "aff",
+      "text": "我能对不同性别的人产生深层的情感依赖。",
+      "reverse": false
+    },
+    {
+      "id": "f3",
+      "dim": "aff",
+      "text": "我能对相同性别的人产生深层的情感依赖。",
+      "reverse": false
+    },
+    {
+      "id": "f4",
+      "dim": "aff",
+      "text": "浪漫的感觉，往往在我建立情感联结后变得更强烈。",
+      "reverse": false
+    },
+    {
+      "id": "f5",
+      "dim": "aff",
+      "text": "我更看重长期的陪伴，而非一时的激情。",
+      "reverse": false
+    },
+    {
+      "id": "f6",
+      "dim": "aff",
+      "text": "我对恋爱该有的模样有自己的想象，不照搬他人。",
+      "reverse": false
+    },
+    {
+      "id": "f7",
+      "dim": "aff",
+      "text": "我能分辨好感、喜欢与爱之间的不同。",
+      "reverse": false
+    },
+    {
+      "id": "f8",
+      "dim": "aff",
+      "text": "当我喜欢一个人时，我渴望被理解，而不是被占有。",
+      "reverse": false
+    },
+    {
+      "id": "f9",
+      "dim": "aff",
+      "text": "我的情感联结不取决于对方的性别标签。",
+      "reverse": false
+    },
+    {
+      "id": "f10",
+      "dim": "aff",
+      "text": "我允许自己投入感情，即使结果未知。",
+      "reverse": false
+    },
+    {
+      "id": "x1",
+      "dim": "flx",
+      "text": "我接受取向可能随时间或经历而变化这一可能。",
+      "reverse": false
+    },
+    {
+      "id": "x2",
+      "dim": "flx",
+      "text": "我愿意在安全的前提下，探索自己真实的感受。",
+      "reverse": false
+    },
+    {
+      "id": "x3",
+      "dim": "flx",
+      "text": "我不会因为害怕变化，就压抑真实的感受。",
+      "reverse": false
+    },
+    {
+      "id": "x4",
+      "dim": "flx",
+      "text": "对以后可能会不一样这件事，我保持开放而不焦虑。",
+      "reverse": false
+    },
+    {
+      "id": "x5",
+      "dim": "flx",
+      "text": "我能诚实地面对探索中冒出的新感受。",
+      "reverse": false
+    },
+    {
+      "id": "x6",
+      "dim": "flx",
+      "text": "我不需要用够不够彻底来证明自己的取向。",
+      "reverse": false
+    },
+    {
+      "id": "x7",
+      "dim": "flx",
+      "text": "我明白探索不等于一定要改变，只是更了解自己。",
+      "reverse": false
+    },
+    {
+      "id": "x8",
+      "dim": "flx",
+      "text": "我能区分好奇的尝试与真实的长久认同。",
+      "reverse": false
+    },
+    {
+      "id": "x9",
+      "dim": "flx",
+      "text": "我不会因外界的催促，就仓促给自己下定义。",
+      "reverse": false
+    },
+    {
+      "id": "x10",
+      "dim": "flx",
+      "text": "即使当前的答案不清晰，我也不会因此否定自己。",
+      "reverse": false
+    },
+    {
+      "id": "c1",
+      "dim": "acc",
+      "text": "无论我的取向是什么，我都不会觉得它是错误或病。",
+      "reverse": false
+    },
+    {
+      "id": "c2",
+      "dim": "acc",
+      "text": "我不会因为自己的感受而产生羞耻。",
+      "reverse": false
+    },
+    {
+      "id": "c3",
+      "dim": "acc",
+      "text": "我能像对待一位朋友那样，善待自己。",
+      "reverse": false
+    },
+    {
+      "id": "c4",
+      "dim": "acc",
+      "text": "我不需要用正常来证明自己。",
+      "reverse": false
+    },
+    {
+      "id": "c5",
+      "dim": "acc",
+      "text": "出现困惑或波动时，我会温和对待自己，而非苛责。",
+      "reverse": false
+    },
+    {
+      "id": "c6",
+      "dim": "acc",
+      "text": "我了解性取向不是一种可以被纠正的缺陷。",
+      "reverse": false
+    },
+    {
+      "id": "c7",
+      "dim": "acc",
+      "text": "我不会因他人可能不认同，就先行否定自己。",
+      "reverse": false
+    },
+    {
+      "id": "c8",
+      "dim": "acc",
+      "text": "我相信真实的自己值得被接纳。",
+      "reverse": false
+    },
+    {
+      "id": "c9",
+      "dim": "acc",
+      "text": "我可以坦然地慢慢认识自己，不必着急。",
+      "reverse": false
+    },
+    {
+      "id": "c10",
+      "dim": "acc",
+      "text": "需要时，我愿意寻求专业的心理支持来帮助自己。",
+      "reverse": false
+    },
+    {
+      "id": "s1",
+      "dim": "ctx",
+      "text": "我身边有接纳我、让我能坦诚做自己的人。",
+      "reverse": false
+    },
+    {
+      "id": "s2",
+      "dim": "ctx",
+      "text": "我担心他人会因我的取向而疏远或评判我。",
+      "reverse": true
+    },
+    {
+      "id": "s3",
+      "dim": "ctx",
+      "text": "我在大部分场合能按自己的意愿生活，不必过度隐藏。",
+      "reverse": false
+    },
+    {
+      "id": "s4",
+      "dim": "ctx",
+      "text": "我知道在哪里可以找到可靠的心理支持或友善的社群。",
+      "reverse": false
+    },
+    {
+      "id": "s5",
+      "dim": "ctx",
+      "text": "选择是否公开取向，是我自己的权利，不代表我羞耻。",
+      "reverse": false
+    },
+    {
+      "id": "s6",
+      "dim": "ctx",
+      "text": "我能分辨哪些环境对我友善，哪些需要保持谨慎。",
+      "reverse": false
+    },
+    {
+      "id": "s7",
+      "dim": "ctx",
+      "text": "家人或朋友的态度，不会成为我评判自己的标准。",
+      "reverse": false
+    },
+    {
+      "id": "s8",
+      "dim": "ctx",
+      "text": "我会在感到安全时，向信任的人敞开心扉。",
+      "reverse": false
+    },
+    {
+      "id": "s9",
+      "dim": "ctx",
+      "text": "我不需要用对抗或证明，来换取被接纳。",
+      "reverse": false
+    },
+    {
+      "id": "s10",
+      "dim": "ctx",
+      "text": "环境是否接纳我，不会改变我的自我价值。",
+      "reverse": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "SOA 1.0",
+    "title": "SOA · 性取向光谱分析",
+    "email": "programmingscience@foxmail.com",
+    "author": "Maxx-EX",
+    "disclaimer": "重要说明：SOA 是性取向的自我探索工具，不是诊断、不是医学鉴定，也不构成任何医疗建议。性取向不是疾病，也并非个人选择；它是多元、流动且私密的个人维度。本结果只描述你当前自我报告中的倾向，不替你定义或贴标签——你完全有权用自己的方式认同自己。若你正因取向、认同或相关压力感到持续困扰，请寻求专业的心理咨询支持（而非任何试图改变取向的做法，后者有害且无必要）。"
+  },
+  "dims": [
+    {
+      "key": "atr",
+      "name": "吸引取向",
+      "full": "Attraction Orientation",
+      "note": "你在情感与身体层面被怎样的人吸引，多元而非单一线。"
+    },
+    {
+      "key": "ide",
+      "name": "认同舒适",
+      "full": "Identity Comfort",
+      "note": "你对自身取向的清晰度与自在程度。"
+    },
+    {
+      "key": "aff",
+      "name": "情感联结",
+      "full": "Affective Affinity",
+      "note": "超越身体的浪漫与情感亲近。"
+    },
+    {
+      "key": "flx",
+      "name": "流动探索",
+      "full": "Fluidity & Exploration",
+      "note": "对取向随经历流动的开放与探索的从容。"
+    },
+    {
+      "key": "acc",
+      "name": "自我接纳",
+      "full": "Self-Acceptance",
+      "note": "不含羞耻、不自我否定的内在善待。"
+    },
+    {
+      "key": "ctx",
+      "name": "环境支持",
+      "full": "Context & Support",
+      "note": "身边环境与你获得的接纳与安全感。"
+    }
+  ]
+}
